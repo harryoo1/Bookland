@@ -1,0 +1,58 @@
+.featured-container {
+    width: 100%;
+    margin-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.featured-heading {
+    background: green;
+    color: #fff;
+    width: 250px;
+    font-size: 24px;
+    padding: 5px;
+    height: 40px;
+}
+
+img {
+    width: 90px !important;
+    height: 130px !important;
+    margin: auto;
+}
+
+.product-bottom .fa {
+    color: green;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.overlay {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 1% !important;
+    width: 50px !important;
+}
+
+.product-top:hover .overlay {
+    opacity: 1;
+    margin-left: 16%;
+    transition: 0.5s;
+}
+
+.overlay .fa {
+    cursor: pointer;
+    background-color: #fff;
+    height: 25px !important;
+    width: 25px !important;
+    font-size: 15px !important;
+    padding: 7px;
+    margin: 5%;
+    margin-left: 20px;
+}
+
+.overlay .btn-secondary {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}

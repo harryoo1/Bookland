@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    height: auto;
+    text-align: center;
+	background : url(../images/sell_books/img6.jpg);
+}
+.sell_books-container{
+    background-color: rgba(0,0,0,0.6);
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    z-index: 1030;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-sell_books {
+    max-width: 50rem;
+    box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
+.form-control{
+    margin: 10px !important;
+    margin-left: 0px !important;
+}

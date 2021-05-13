@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/owl_carousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl_carousel/owl.theme.default.min.css">
+    <title>www.Bookland.com</title>
+</head>
+
+<body>
+    <!--...........Navigation..............-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h3 style="color: #ffffff; font: normal 36px 'Cookie', cursive; margin: 0;">Book<span style="color: #5383d3;">land</span></h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-user dropdown-toggle" style="color: #5383d3;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <form action="#" method="post">
+                    <input type="text" name="global_search" placeholder="Search By Name/Author">
+                    <button class="btn btn-outline-success" type="submit" style="height: 35px;">
+                        <span class="fa fa-search" style="font-size: 25px;"></span></button>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <span class="nav-link" id="myMod" style="margin: 10px; font: normal 16px 'Cookie', cursive; color: #5383d3; cursor: pointer;">Login</span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-link" id="myMod_s" style="margin: 10px; font: normal 16px 'Cookie', cursive; color: #5383d3; cursor: pointer;">Signup</span>
+                    </li>
+                    <li class="dropdown">
+                        <div style="width: 110px; margin-right: 100px; padding-left: 0;">
+                            <span class="nav-link  dropdown-toggle" id="dropdown01" style="margin: 10px; font: normal 15.5px 'Cookie', cursive; cursor: pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</span></div>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="my_profile.html"><i class="fa fa-user" style="color: #1e90ff; margin-right:15px; margin-left: 10px;"></i>My Profile</a>
+                            <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="my_orders.html"><i class="fa fa-briefcase" style="color: #1e90ff; margin-right:15px; margin-left: 10px;"></i>Orders</a>
+                            <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="my_wishlist.html"><i class="fa fa-heart" style="color: #1e90ff; margin-right:15px; margin-left: 10px;"></i>Wishlist</a>
+                            <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="logout.html"><i class="fa fa-power-off" style="color: #1e90ff; margin-right:15px; margin-left: 10px;"></i>Logout</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="cart-link" id="myMod_cart"><i class="fa fa-cart-plus" style="font-size:34px; margin-right: 5px;"><span style="font-family: sans-serif; font-size: 17px;">Cart</span></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="top">
+        <nav class="navbar navbar-expand-lg" style="box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); background-color: white;">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive1" aria-controls="navbarResponsive1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars" style="color: #5383d3;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" style="margin-left: 30px; margin-right: 30px;">
+                            <a class="nav-link home-btn fa fa-home" href="index.html" style="font-size: 30px;"></a>
+                        </li>
+                        <li class="nav-item dropdown" style="margin-left: 30px; margin-right: 30px;">
+                            <div style="width: 110px;">
+                                <span class="nav-link dropdown-toggle" style="font: normal 16px 'Cookie', cursive; color: rgba(0,110,255,0.9); cursor: pointer;" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</span></div>
+                            <div class="dropdown-menu" aria-labelledby="dropdown">
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/school_text.html">School Text</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/engineering.html">Engineering math & science</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/computer.html">Computer Science</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/english.html">English Learn</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/biographies.html">Biographies</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/comics.html">Comics</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/medical.html">Medical & Nursing</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="products_pages/dictionary.html">Dictionary & Language</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" style="margin-left: 30px; margin-right: 30px; font: normal 16px 'Cookie', cursive; color: rgba(0,110,255,0.9);">
+                            <a class="nav-link" href="sell_books.html"><span>Sell</span></a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 30px; margin-right: 30px; font: normal 16px 'Cookie', cursive; color: rgba(0,110,255,0.9);">
+                            <a class="nav-link" href="donate.html">Donate</a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 30px; margin-right: 30px; width: 90px; font: normal 15.5px 'Cookie', cursive; color: rgba(0,110,255,0.9);">
+                            <a class="nav-link" href="products_pages/old_books.html">Old Books</a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 30px; margin-right: 30px; width: 90px; font: normal 15.5px 'Cookie', cursive; color: rgba(0,110,255,0.9);">
+                            <a class="nav-link" href="#giveaways">Giveaways</a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 30px; margin-right: 30px; width: 90px; font: normal 15.5px 'Cookie', cursive; color: rgba(0,110,255,0.9);">
+                            <a class="nav-link" href="#footer">About</a>
+                        </li>
+                        <li class="nav-item dropdown" style="margin-left: 30px; margin-right: 30px;">
+                            <div style="width: 90px; font: normal 15.5px 'Cookie', cursive; color: rgba(0,110,255,0.9); cursor: pointer;"><span class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</span></div>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="#footer">24x7 Help</a>
+                                <a class="dropdown-item nav-link" style="font: normal 15px 'Cookie', sans-serif; color: #6c757d;" href="#footer">Contact us</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!------------------------Login Form------------------------->
+        <div id="myModal" class="modal">
+            <div class="l-form-container">
+                <div class="card card-login mx-auto mt-5">
+                    <div class="card-header" style="background-color: #5383d3; font: normal 26px 'Cookie', cursive; color: #fff;">Login<span class="close_l">&times;</span></div>
+                    <div class="card-body">
+                        <form action="index.html">
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
+                                    <label for="inputEmail">Email address</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                                    <label for="inputPassword">Password</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="remember-me">
+                                        Remember Password
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" href="index.html">Login</button>
+                        </form>
+                        <div class="text-center">
+                            <a class="d-block small" href="forget_password.html">Forget Password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var modal = document.getElementById("myModal");
+            var a = document.getElementById("myMod");
+            var span = document.getElementsByClassName("close_l")[0];
+
+            a.onclick = function() {
+                modal.style.display = "block";
+            }
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        </script>
+        <!------------------------Signup Form------------------------>
+        <div id="myModal_s" class="modal">
+            <div class="s-form-container">
+                <div class="card card-register mx-auto mt-5">
+                    <div class="card-header" style="background-color: #5383d3; font: normal 26px 'Cookie', cursive; color: #fff;">Register an Account<span class="close_s">&times;</span></div>
+                    <div class="card-body">
+                        <form action="index.html">
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" id="firstName" class="form-control" placeholder="First name" required="required" autofocus="autofocus">
+                                            <label for="firstName">First name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="text" id="lastName" class="form-control" placeholder="Last name" required="required">
+                                            <label for="lastName">Last name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-label-group">
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required">
+                                    <label for="inputEmail">Email address</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                                            <label for="inputPassword">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-label-group">
+                                            <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm password" required="required">
+                                            <label for="confirmPassword">Confirm password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" href="index.html">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var modal_s = document.getElementById("myModal_s");
+            var a = document.getElementById("myMod_s");
+            var span = document.getElementsByClassName("close_s")[0];
+
+            a.onclick = function() {
+                modal_s.style.display = "block";
+            }
+            span.onclick = function() {
+                modal_s.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal_s) {
+                    modal_s.style.display = "none";
+                }
+            }
+
+        </script>
+        <!------------------------Shopping Cart---------------------->
+        <div id="myModal_cart" class="modal">
+            <div class="cart-container">
+                <div class="card card-shopping-cart mx-auto">
+                    <div class="card-header" style="background-color: #5383d3; font: normal 20px 'Cookie', cursive; color: #fff;"><i class="fa fa-cart-plus" style="margin-right: 10px;">..</i>My shopping Cart<span class="close_cart">&times;</span></div>
+                    <div class="card-body" id="scrollbar" style="overflow-y: scroll;">
+                        <div class="info">
+                            <p>Your Shopping Cart contains product(s) which are tagged Non-Returnable, and can be ordered via Prepaid payment methods only – Credit / Debit Card, Net Banking, Paytm etc.</p>
+                        </div>
+                        <div class="row" style="border: 1px solid rgba(0,0,0,0.15); padding: 10px;">
+                            <div class="col-sm-8">
+                                <div class="item-container">
+                                    <img class="cart-img" src="images/cart-images/tn_2.jpg">
+                                    <div class="cart-description">
+                                        <input type="number" class="form-control cart-quantity" value="1">
+                                        <h6 class="cart-text">Adobe InDesign CC Classroom in a Book,<br>2018 Release by Pearson</h6>
+                                        <p style="color: gray; font-size: 12px;">by Kelly Kordes Anton (Author), Tina DeJarld (Author)
+                                            <br><span style="color: red; font-size: 14px;">Rs 533</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="item-container">
+                                    <img class="cart-img" src="images/cart-images/tn_5.jpg">
+                                    <div class="cart-description">
+                                        <input type="number" class="form-control cart-quantity" value="1">
+                                        <h6 class="cart-text">Indian Economy, Issues and concerns</h6>
+                                        <p style="color: gray; font-size: 12px;">by KR Gupta (Author)<br><span style="color: red; font-size: 14px;">Rs 752</span></p>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="summary">
+                                    <h3 class="text-center">Summary</h3>
+                                    <div class="summary-item"><span class="text">Subtotal :</span><span class="price">Rs 1285</span></div>
+                                    <div class="summary-item "><span class="text ">Discount</span><span class="price ">15%</span></div>
+                                    <div class="summary-item "><span class="text ">Shipping</span><span class="price ">Rs 49</span></div>
+                                    <div class="summary-item "><span class="text ">Total</span><span class="price ">Rs 1141.25</span></div>
+                                    <button type="button" class="btn btn-primary btn-block" style="margin-top: 20px;"><a class="nav-link" href="my_profile.html"><span style="color: white; text-decoration: none;">Continue</span></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var modal_cart = document.getElementById("myModal_cart");
+            var a = document.getElementById("myMod_cart");
+            var span = document.getElementsByClassName("close_cart")[0];
+
+            a.onclick = function() {
+                modal_cart.style.display = "block";
+            }
+            span.onclick = function() {
+                modal_cart.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal_cart) {
+                    modal_cart.style.display = "none";
+                }
+            }
+
+        </script>
+    </section>
+    <!------------------------main Body-------------------------->
+    <div class="container-fluid" style="margin-top: 10px; padding-bottom: 30px;">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="heading">
+                    <h4>Popular Categories</h4>
+                </div>
+                <div><a class="pop_cat-link" href="products_pages/b_and_m.html">Business & Management<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/biographies.html">Autobiographies<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/computer.html">Computers<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/entrance.html">Entrance Exams<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/history.html">History & Politics<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/cooking.html">Health & Cooking<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/philosophy.html">International Books<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/medical.html">Medical<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/philosophy.html">Philosopy & Self-Help<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/school_text.html">Schools Books<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+                <div><a class="pop_cat-link" href="products_pages/romance.html">others<i class="fa fa-chevron-right" style="float: right;" aria-hidden="true"></i></a></div>
+            </div>
+            <div class="col-lg-9">
+                <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel carousel-inner" role="listbox">
+                        <div class="carousel-item active"><a href="products_pages/b_and_m.html"><img class="slider-img" src="images/slider/slider4.png"></a></div>
+                        <div class="carousel-item"><a href="products_pages/comics.html"><img class="slider-img" src="images/slider/slider1.png"></a></div>
+                        <div class="carousel-item"><a href="products_pages/biographies.html"><img class="slider-img" src="images/slider/New/slider1.png"></a></div>
+                        <div class="carousel-item"><a href="products_pages/school_text.html"><img class="slider-img" src="images/slider/new/slider4.png"></a></div>
+                        <div class="carousel-item"><a href="products_pages/entrance.html"><img class="slider-img" src="images/slider/new/slider3.png"></a></div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="row" style="margin-top: 40px;">
+                    <div class="col-lg-4"><a href="products_pages/biographies.html">
+                            <img class="banner-img" src="images/banner/book1.png"></a>
+                    </div>
+                    <div class="col-lg-4"><a href="products_pages/dictionary.html">
+                            <img class="banner-img" src="images/banner/book2.png"></a>
+                    </div>
+                    <div class="col-lg-4"><a href="products_pages/medical.html">
+                            <img class="banner-img" src="images/banner/book3.png"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <!---------------------Featured---------------------->
+        <!--<p class="featured-heading text-center" style="font: normal 23px 'Cookie', sans-serif; margin-top: 10px;">Featured</p>-->
+        <p style="font: normal 26px 'Cookie', cursive ; margin-top: 10px; color: limegreen;">Featured Books</p>
+        <div style="width: 100%; background-color: #00ff69; height: 3px; margin-bottom: 20px;"></div>
+        <div class="container featured-container">
+            <div class="row text-center" style="margin-top: 30px;">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book1.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b1.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">281 and Beyond</span><br>By: VVS Laxman<br>
+                                <strong>Rs 1076 <s>1135</s></strong> &nbsp <span style="color: orangered"> Extra 31% off</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book2.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b2.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">Hotshot Doc</span><br>By: R S Grey<br>
+                                <strong>Rs 1100 <s>1139</s></strong> &nbsp <span style="color: orangered">Extra 20% off</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book3.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b3.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">Verity</span><br>By: Colleen Hoover<br>
+                                <strong>Rs 1157 <s>1299</s></strong> &nbsp <span style="color: orangered">Extra 15% off</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book4.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b4.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">Late in the day</span><br>By: Tessa Hadley<br>
+                                <strong>Rs 1384 <s>1535</s></strong> &nbsp <span style="color: orangered">Extra 20% off</span></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row text-center" style="margin-top: 30px;">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book5.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b5.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">Crucible: A Thriller</span><br>By: James Rollins<br>
+                                <strong>Rs 1405 <s>1972</s></strong> &nbsp <span style="color: orangered">Extra 10% off</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book6.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b6.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">The Water Cure</span><br>By: Sophie Mackintosh<br>
+                                <strong>Rs 1337 <s>1576</s></strong> &nbsp <span style="color: orangered">Extra 15% off</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book7.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b7.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">Winners Take All:</span><br>By: Anand Giridharadas<br>
+                                <strong>Rs 1445 <s>1946</s></strong> &nbsp <span style="color: orangered">Extra 25% off</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="images/featured_books/book8.jpg">
+                        <div class="overlay">
+                            <a href="items_pages/featured_books/f_b8.html"><button type="button" class="btn btn-secondary" title="Quick shop"><i class="fa fa-eye" aria-hidden="true" style="color: black;"></i></button></a>
+                            <button type="button" class="btn btn-secondary" onclick="myfun1()" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true" style="color: red;"></i></button>
+                            <button type="button" class="btn btn-secondary" onclick="myfun2()" title="Add to cart"><i class="fa fa-shopping-cart" aria-hidden="true" style="color: #007bff;"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p class="text"><span style="font-weight: bold;">Scion of Ikshvaku</span><br>By: Westland Publication limited<br>
+                                <strong>Rs 431 <s>470</s></strong> &nbsp <span style="color: orangered">Extra 21% off</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function myfun1() {
+                alert("Product successfully added to wishlist..!");
+            }
+
+            function myfun2() {
+                alert("Product successfully added to cart..!");
+            }
+
+        </script>
+        <hr>
+        <!----------------------New Arrivals------------------------->
+        <div class="wrapper">
+            <p style="font: normal 26px 'Cookie', cursive ; color: limegreen;">New Arrivals</p>
+            <div style="width: 100%; background-color: #00ff69; height: 3px; margin-bottom: 20px;"></div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na1.html">
+                        <img class="owl-img" src="images/new_arrivals/tn_1.jpg">
+                        <p class="text">The Girl in Room 105<br><br>
+                            <span style="font-weight: bold;">Rs 139</span> <s>199</s> &nbsp <span style="color: orangered;">10% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na2.html">
+                        <img class="owl-img" src="images/new_arrivals/tn_4.jpg">
+                        <p class="text">Miracles of Yantras<br><br>
+                            <span style="font-weight: bold;">Rs 210</span> <s>256</s> &nbsp <span style="color: orangered;">31% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na3.html">
+                        <img class="owl-img" src="images/new_arrivals/tn_2.jpg">
+                        <p class="text">How India Works<br><br>
+                            <span style="font-weight: bold;">Rs 340</span> <s>399</s> &nbsp <span style="color: orangered;">4% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na4.html">
+                        <img class="owl-img" src="images/new_arrivals/tn_3.jpg">
+                        <p class="text">Deep Work<br><br>
+                            <span style="font-weight: bold;">Rs 653</span> <s>670</s> &nbsp <span style="color: orangered;">5% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na5.html">
+                        <img class="owl-img" src="images/new_arrivals/tn_5.jpg">
+                        <p class="text">Indian Economy<br><br>
+                            <span style="font-weight: bold;">Rs 440</span> <s>450</s> &nbsp <span style="color: orangered;">10% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na6.html">
+                        <img class="owl-img" src="images/new_arrivals/tn_6.jpg">
+                        <p class="text">Paradise Towers<br><br>
+                            <span style="font-weight: bold;">Rs 199</span> <s>249</s> &nbsp <span style="color: orangered;">25% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na7.html">
+                        <img class="owl-img" src="images/new_arrivals/tn7.jpg">
+                        <p class="text">Not to self<br><br>
+                            <span style="font-weight: bold;">Rs 1139</span> <s>1299</s> &nbsp <span style="color: orangered;">21% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na8.html">
+                        <img class="owl-img" src="images/new_arrivals/tn8.jpg">
+                        <p class="text">David Baldacci<br><br>
+                            <span style="font-weight: bold;">Rs 250</span> <s>299</s> &nbsp <span style="color: orangered;">12% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na9.html">
+                        <img class="owl-img" src="images/new_arrivals/tn9.jpg">
+                        <p class="text">John Grisham<br><br>
+                            <span style="font-weight: bold;">Rs 129</span> <s>169</s> &nbsp <span style="color: orangered;">8% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na10.html">
+                        <img class="owl-img" src="images/new_arrivals/tn10.jpg">
+                        <p class="text">Harry Potter<br><br>
+                            <span style="font-weight: bold;">Rs 2946</span> <s>3145</s> &nbsp <span style="color: orangered;">5% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na11.html">
+                        <img class="owl-img" src="images/new_arrivals/tn11.jpg">
+                        <p class="text">Dan Brown Origin<br><br>
+                            <span style="font-weight: bold;">Rs 199</span> <s>259</s> &nbsp <span style="color: orangered;">25% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na12.html">
+                        <img class="owl-img" src="images/new_arrivals/tn12.jpg">
+                        <p class="text">Milkman<br><br>
+                            <span style="font-weight: bold;">Rs 259</span> <s>269</s> &nbsp <span style="color: orangered;">10% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na13.html">
+                        <img class="owl-img" src="images/new_arrivals/tn13.jpg">
+                        <p class="text">Hate Notes<br><br>
+                            <span style="font-weight: bold;">Rs 298</span> <s>350</s> &nbsp <span style="color: orangered;">15% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na14.html">
+                        <img class="owl-img" src="images/new_arrivals/tn14.jpg">
+                        <p class="text">Scion of Ikshvaku<br><br>
+                            <span style="font-weight: bold;">Rs 431</span> <s>470</s> &nbsp <span style="color: orangered;">21% off</span></p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a class="nav-link" href="items_pages/new_arrivals/na15.html">
+                        <img class="owl-img" src="images/new_arrivals/tn15.jpg">
+                        <p class="text">Mouth full of Birds<br><br>
+                            <span style="font-weight: bold;">Rs 135</span> <s>199</s> &nbsp <span style="color: orangered;">10% off</span></p>
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="margin-top: 20px;" id="giveaways">
+                <div class="col-sm-4">
+                    <section id="giveaways">
+                        <div class="card card-login mx-auto">
+                            <div class="card-header" style="background-color: #5383d3;">
+                                <h4 style="font: normal 26px 'Cookie',cursive; color: #fff;">Register for Giveaways..</h4>
+                            </div>
+                            <div class="card-body">
+                                <form action="after_giveaway.html">
+                                    <div class="form-group">
+                                        <p style="font-size: 13px; font-family: sans-serif">Register here to win free books.Winners will be randomly choosed from the registered users.</p>
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                        <span style="font-size: 14px;color: #696969; font-family: fantasy;">Select Book</span>
+                                        <select name="freebooks" class="form-control">
+                                            <option>Select</option>
+                                            <option>
+                                                <p class="text">How India Works</p>
+                                            </option>
+                                            <option>
+                                                <p class="text">Miracles of Yantras</p>
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-block">Register</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-8" style="border-left: 1px solid #b9b9b9;">
+                    <p style="font: normal 20px 'Cookie', cursive ; margin-top: 10px; color: #5383d3;">About Featured Authors</p>
+                    <div class="wrapper">
+                        <div class="owl-2 owl-carousel owl-theme">
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Gillian_Flynn">
+                                    <img class="owl-2-img" src="images/featured_authors/dillian.jpg">
+                                    <p class="text">GILLIAN FLYNN</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Arundhati_Roy">
+                                    <img class="owl-2-img" src="images/featured_authors/arundhajpg.jpg">
+                                    <p class="text">ARUNDHATI ROY</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Shashi_Tharoor">
+                                    <img class="owl-2-img" src="images/featured_authors/dr-shashi-tharoor-2.jpg">
+                                    <p class="text">SHASHI THAROOR</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Gayle_Forman">
+                                    <img class="owl-2-img" src="images/featured_authors/gayle-forman.jpg">
+                                    <p class="text">GAYLE FORMAN</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/John_Green_(author)">
+                                    <img class="owl-2-img" src="images/featured_authors/johngreen.jpg">
+                                    <p class="text">JOHN GREEN</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Erich_Segal">
+                                    <img class="owl-2-img" src="images/featured_authors/ma10_milestones_segal.jpg">
+                                    <p class="text">ERICH SIGAL</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Stephen_Coonts">
+                                    <img class="owl-2-img" src="images/featured_authors/stephan-coonts.jpg">
+                                    <p class="text">STEPHAN COONTS</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Stephen_King">
+                                    <img class="owl-2-img" src="images/featured_authors/stephen-edwin-king.jpg">
+                                    <p class="text">STEPHEN KING</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/Sylvia_Plath">
+                                    <img class="owl-2-img" src="images/featured_authors/sylvia2.jpg">
+                                    <p class="text">SYLVIA PLATH</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a class="nav-link" href="https://en.wikipedia.org/wiki/William_Wordsworth">
+                                    <img class="owl-2-img" src="images/featured_authors/william-wordsworth-8.jpg">
+                                    <p class="text">WILLIAM WORDSWORTH</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="nav-link btn btn-warning" href="#top" style="width: 150px; float: right; color: #fff;">Go to top</a>
+    </div>
+    <!--==========Footer================-->
+    <footer class="footer-distributed" id="footer">
+        <div class="footer-left">
+            <h5 style="color: #ffffff; font: normal 26px 'Cookie', cursive; margin: 0;">Book<span style="color: #5383d3;">land</span></h5>
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="#footer">Blog</a> ·
+                <a href="#footer">Pricing</a> ·
+                <a href="#footer">About</a> ·
+                <a href="#footer">FAQ</a> ·
+                <a href="#footer">Contact</a>
+            </p>
+            <p class="footer-company-name">Bookland.com &copy; 2018</p>
+            <div class="footer-icons">
+                <a href="https://instagram.com/bookland_00?utm_source=ig_profile_share&igshid=ewpcu8ybg32r"><i class="fa fa-facebook"></i></a>
+                <a href="https://instagram.com/bookland_00?utm_source=ig_profile_share&igshid=ewpcu8ybg32r"><i class="fa fa-twitter"></i></a>
+                <a href="https://instagram.com/bookland_00?utm_source=ig_profile_share&igshid=ewpcu8ybg32r"><i class="fa fa-linkedin"></i></a>
+                <a href="https://instagram.com/bookland_00?utm_source=ig_profile_share&igshid=ewpcu8ybg32r"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>k-14, 3/4775 Tagore garden, Paper Mill Road</span>saharanpur- 247001, Uttar Pradesh <br> India</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8954113521</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@bookland.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span> We offer huge collection of books in diverse category of Fiction, Non-fiction, Biographies, History, Religions, Self -Help, Children, Computers, Engineering, Medical, College and School text references books proposed by different institutes as syllabus across the country.
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="jquery/jquery%203.3.1.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery.2.min.js"></script>
+    <script src="css/owl_carousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: false
+                }
+            }
+        });
+
+    </script>
+</body>
+
+</html>
